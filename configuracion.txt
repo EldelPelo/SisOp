@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+ServerAdmin admin@sistemasoperativos.com
+ServerName sistemasoperativos.com
+ServerAlias www.sistemasoperativos.com
+DocumentRoot /var/www/sistemasoperativos.com/html
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
